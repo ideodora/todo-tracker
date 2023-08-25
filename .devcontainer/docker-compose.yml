@@ -1,0 +1,16 @@
+# ref: https://containers.dev/guide/dockerfile
+
+version: '3'
+
+services:
+  node:
+    build: ./images/node
+    volumes:
+      - ../:/workspace
+      - node_modules:/workspace/node_modules
+    tty: true
+    ports:
+      - '3000:3000'
+
+volumes:
+  node_modules:

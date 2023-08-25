@@ -1,0 +1,7 @@
+{
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "node",
+    "workspaceFolder": "/workspace",
+    "remoteUser": "node",
+    "postCreateCommand": "sudo chown node:node node_modules"
+}
