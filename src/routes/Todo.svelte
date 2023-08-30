@@ -33,7 +33,7 @@
 >
 	<div class="w-96">
 		<p class="text-normal">{todo.title}</p>
-		<p class="text-xs text-gray-400">Creato / Development</p>
+		<p class="text-xs text-gray-400">Client / Development</p>
 	</div>
 	<div class="ml-auto flex items-center gap-x-4">
 		{#if isRunning}
